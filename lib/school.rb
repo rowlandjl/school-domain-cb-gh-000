@@ -1,3 +1,5 @@
+require 'pry'
+
 class School
 
   def initialize(school_name)
@@ -23,7 +25,7 @@ class School
   def sort
     @roster.values.each do |i|
       puts i
-    end 
+    end
   end
 
 end
