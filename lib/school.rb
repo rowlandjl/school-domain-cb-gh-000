@@ -24,6 +24,7 @@ class School
 
   def sort
     @roster.values.each do |i|
+      binding.pry
       puts i
     end
   end
