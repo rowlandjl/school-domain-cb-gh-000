@@ -24,6 +24,7 @@ class School
     @roster.values.each do |i|
       i[0]
     end
+    @roster
   end
 
 end
