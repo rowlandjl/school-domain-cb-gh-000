@@ -24,6 +24,7 @@ class School
     i = 0
     @roster.each do |grade, names|
       puts names[i]
+      i += 1
     end
   end
 
