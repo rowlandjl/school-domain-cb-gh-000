@@ -24,6 +24,9 @@ class School
 
   def sort
     @roster.sort.to_h
+    @roster.each do |k, v|
+      v.sort
+    end 
   end
 
 end
